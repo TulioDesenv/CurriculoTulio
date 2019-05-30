@@ -5,11 +5,5 @@
             "scr": "index.js",
             "use": "@now/node-server"
         }
-    ],
-    "routers": [
-        {
-            "src": "/.*",
-            "dest": "index.js"
-        } 
     ]
 }
