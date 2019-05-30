@@ -8,7 +8,9 @@ app.get('/', (request, response) => {
     response.render('home')
 })
 
-app.listen(3000, (err) => {
+const port = process.env.PORT || 3000
+
+app.listen(port, (err) => {
     if (err) {
         console.log('Não foi possivel iniciar o servidor do Curriculo Tulio')
     }else{
