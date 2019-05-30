@@ -1,9 +1,3 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "scr": "index.js",
-            "use": "@now/node-server"
-        }
-    ]
+    
 }
