@@ -3,7 +3,7 @@
     "builds": [
         { "scr": "*.js", "use": "@now/node-server" }
     ],
-    "routers": [
+    "routes": [
         { "src": "/.*", "dest": "index.js" } 
     ]
 }
